@@ -31,21 +31,6 @@ The Excel workbook contains the following sheets:
 4. **Wald Confidence Intervals**  
    Includes confidence intervals for each model's performance using both scoring methods.
 
-## 📊 Metrics Included
-
-- Pass Rate (p̂)
-- Standard Error (SE)
-- Margin of Error
-- z-value and p-value
-- Wald 95% Confidence Intervals
-- Statistical Significance
-
-## 🔍 Key Observations
-
-- **o1** and **GPT-4o** significantly outperformed **GPT-3.5** in both experiments.
-- While **o1** slightly outperformed **GPT-4o**, the difference was not statistically significant.
-- o1 and GPT-4o solved different subsets of problems, suggesting complementary strengths.
-
 ## 📄 File
 
 - `chatgpt_leetcode_experiment.xlsx`: The main workbook with all results and analyses.
