@@ -33,7 +33,7 @@ The Excel workbook contains the following sheets:
 
 ## 📄 File
 
-- `chatgpt_leetcode_experiment.xlsx`: The main workbook with all results and analyses.
+- `Experiment Result.xlsx`: The main workbook with all results and analyses.
 
 ## 🧠 Acknowledgments
 
