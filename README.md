@@ -1,30 +1,57 @@
 # ChatGPT Models LeetCode Performance Analysis
 
-This repository contains the results and statistical analysis of two experiments comparing the performance of three ChatGPT models—**GPT-3.5**, **GPT-4o**, and **o1**—on solving hard coding problems from **LeetCode**.
+This repository contains an Excel workbook that presents the results and statistical analysis of two experiments comparing the performance of three ChatGPT models—**GPT-3.5**, **GPT-4o**, and **o1**—on solving hard LeetCode problems.
 
-## 📊 Overview
+## 🧪 Experiment Overview
 
-The experiments were designed to evaluate how effectively each model solves coding challenges, using two different scoring approaches:
+The goal of this study was to evaluate and compare how well each model performed when solving challenging coding problems. Two types of scoring methods were applied:
 
-- **Aggregated Approach (2-out-of-3):** A problem is considered solved if a model solves it at least 2 out of 3 times.
-- **Proportional Approach:** Scores are assigned based on how many of the 3 attempts were successful (0%, 33.33%, 66.67%, 100%).
+- **Aggregated Approach (2-out-of-3):** A problem is considered solved if the model succeeds in at least 2 out of 3 attempts.
+- **Proportional Approach:** Each problem is scored based on how many attempts were successful (0%, 33.33%, 66.67%, 100%).
 
-## 📁 Repository Structure
+Two experiments were conducted:
+- **Main Experiment**: Used a benchmark problem set from Kuhail et al.
+- **Post-Experiment**: Used a new problem set selected by the authors.
 
-```plaintext
-📂 experiment-results/
-    ├── Main experiment results of o1
-    ├── Main experiment results of 4o
-    ├── Main experiment results of 3.5
-    ├── Post-experiment results of o1
-    └── Post-experiment results of 4o
+## 📘 Workbook Structure
 
-📂 unsolved-problems/
-    ├── Unsolved problems by models in Main experiment
-    └── Unsolved problems by models in Post-experiment
+The Excel workbook contains the following sheets:
 
-📂 statistical-analysis/
-    ├── Pairwise p-value (Aggregated Approach, n=60)
-    ├── Pairwise p-value (Proportional Approach, n=30)
-    ├── Wald Confidence Interval (Aggregated Approach, n=60)
-    └── Wald Confidence Interval (Proportional Approach, n=30)
+1. **Experiment Results by Model**  
+   Shows individual results for each model in both experiments, with links to detailed results within the workbook.
+
+2. **Unsolved Problems**  
+   Summarizes which problems were not solved by each model across experiments.
+
+3. **Pairwise P-Value Comparison**  
+   Displays statistical significance between models using Wald z-tests:
+   - Aggregated Approach (n = 60)
+   - Proportional Approach (n = 30)
+
+4. **Wald Confidence Intervals**  
+   Includes confidence intervals for each model's performance using both scoring methods.
+
+## 📊 Metrics Included
+
+- Pass Rate (p̂)
+- Standard Error (SE)
+- Margin of Error
+- z-value and p-value
+- Wald 95% Confidence Intervals
+- Statistical Significance
+
+## 🔍 Key Observations
+
+- **o1** significantly outperformed **GPT-3.5** in both experiments.
+- While **o1** slightly outperformed **GPT-4o**, the difference was not statistically significant.
+- o1 and GPT-4o solved different subsets of problems, suggesting complementary strengths.
+
+## 📄 File
+
+- `chatgpt_leetcode_experiment.xlsx`: The main workbook with all results and analyses.
+
+## 🧠 Acknowledgments
+
+Inspired by the benchmark study by Kuhail et al., whose LeetCode dataset was used in the main experiment.
+
+
