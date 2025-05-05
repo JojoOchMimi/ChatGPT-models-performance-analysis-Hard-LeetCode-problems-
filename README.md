@@ -52,6 +52,7 @@ The Excel workbook contains the following sheets:
 
 ## 🧠 Acknowledgments
 
-Inspired by the benchmark study by Kuhail et al., whose LeetCode dataset was used in the main experiment.
+This project was inspired by the benchmark study by Kuhail et al., whose curated LeetCode dataset was used in the main experiment:
+https://github.com/kuhailamin/ChatGPT_data
 
 
