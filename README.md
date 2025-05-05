@@ -42,7 +42,7 @@ The Excel workbook contains the following sheets:
 
 ## 🔍 Key Observations
 
-- **o1** significantly outperformed **GPT-3.5** in both experiments.
+- **o1** and **GPT-4o** significantly outperformed **GPT-3.5** in both experiments.
 - While **o1** slightly outperformed **GPT-4o**, the difference was not statistically significant.
 - o1 and GPT-4o solved different subsets of problems, suggesting complementary strengths.
 
