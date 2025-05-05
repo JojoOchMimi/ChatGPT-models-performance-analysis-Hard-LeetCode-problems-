@@ -33,7 +33,7 @@ The Excel workbook contains the following sheets:
 
 ## 📄 File
 
-- `Experiment Result.xlsx`: The main workbook with all results and analyses.
+- `Experiment Result.xlsm`: The main workbook with all results and analyses.
 
 ## 🧠 Acknowledgments
 
